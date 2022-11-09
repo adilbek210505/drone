@@ -1,0 +1,45 @@
+@mixin btn {
+  background: transparent;
+  color: black;
+  padding: 10px 20px;
+}
+
+@mixin btn {
+  &:hover {
+    transition: .5s;
+    transform: scale(1.1);
+    color: #000000;
+    border: none;
+  }
+}
+@mixin a {
+  &:hover {
+    color: #0C76D8;
+    transition: .3s;
+  }
+}
+@mixin h {
+  h1,h2,h3,h4,h5,h6:hover {
+    transition: .4s;
+    transform: scale(1.1);
+    background: transparent;
+    color: red;
+  }
+
+}
+@mixin df {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+@mixin wr () {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+$phone:Iphone X ;
+$drone:DJI Mavic Pro;
+$aipad:Apple IPad Pro;
+$applevoch:Apple Watch Series 5;

@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+}
+.scroll {
+  overflow: hidden;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 9px 2px;
+  background: transparent;
+}
+:hover {
+  border: none;
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+
